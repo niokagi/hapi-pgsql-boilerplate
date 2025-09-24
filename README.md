@@ -33,6 +33,13 @@ CREATE DATABASE "hapi-starter";
 ```bash
 npm run migrate up
 ```
+Migration commands:
+
+| Command                  | Description                                |
+| :----------------------- | :----------------------------------------- |
+| `npm run migrate create <name>` | Create a new migration file.             |
+| `npm run migrate up`     | Apply all pending migrations.              |
+| `npm run migrate down`   | Revert the last applied migration.         |
 
 ### 3. Run the Development Server
 ```bash
