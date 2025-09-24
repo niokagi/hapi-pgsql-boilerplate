@@ -14,7 +14,9 @@ A backend boilerplate for Node.js, Hapi.js, and PostgreSQL, runnable with Docker
 Clone this repo and set up your `.env` file. 
 ```bash
 git clone https://github.com/niokagi/hapi-pgsql-boilerplate.git
+
 cd hapi-pgsql-boilerplate
+
 cp .env.example .env
 ```
 
