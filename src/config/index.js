@@ -1,7 +1,8 @@
 import "dotenv/config";
+import "@dotenvx/dotenvx/config";
 
 export const HOST = process.env.HOST || "localhost";
-export const PORT = process.env.PORT || 5000;
+export const PORT = process.env.PORT || 3000;
 
 export const dbConfig = {
   host: process.env.PGHOST,
